@@ -38,6 +38,7 @@
     appearance: 0;
     list-style: none;
     text-decoration: none;
+    box-sizing: border-box;
 }
 
 body {
@@ -636,6 +637,11 @@ nav button#close__nav-btn {
     width: 60%;
 }
 
+/*===============================GENERAL FORM======================================*/
+
+.form__section-container {
+    padding: 3rem;
+}
 
 
 }
@@ -686,6 +692,10 @@ nav button#close__nav-btn {
     padding: 0;
 }
 
+/*===============================GENERAL FORM======================================*/
 
+.form__section-container {
+    padding: 0;
+}
 
 }
