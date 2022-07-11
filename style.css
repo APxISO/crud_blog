@@ -560,9 +560,6 @@ nav button#close__nav-btn {
 
 
 
-
-
-
 }
 
 /*===============================MEDIA QUERIES (SMALL DEVICES)======================================*/
@@ -606,7 +603,10 @@ nav button#close__nav-btn {
     width: var(--container-width-md);
 }
 
-
+.singlepost__container {
+    background: transparent;
+    padding: 0;
+}
 
 
 
