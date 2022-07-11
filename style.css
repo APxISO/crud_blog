@@ -419,6 +419,16 @@ footer ul a:hover {
 }
 
 
+/*===============================EMPTY PAGES======================================*/
+
+
+.empty__page {
+    height: 70vh;
+    display: grid;
+    place-content: center;
+}
+
+
 
 
 /*===============================MEDIA QUERIES (MEDIUM DEVICES)======================================*/
