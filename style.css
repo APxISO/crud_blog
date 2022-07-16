@@ -187,7 +187,7 @@ nav button {
     background: var(--color-primary-light);
     color: var(--color-primary);
     display: inline-block;
-    padding: 0.5 1rem;
+    padding: 0.5rem 1rem;
     border-radius: var(--card-border-radius-2);
     font-weight: 600;
     font-size: 0.8rem;
@@ -201,7 +201,7 @@ nav button {
 /*===============================GENERAL POST======================================*/
 
 .post__thumbnail {
-    border-radius: var(--card-border-radius-5) 0;
+    border-radius: var(--card-border-radius-5);
     border: 1rem solid var(--color-gray-900);
     overflow: hidden;
     margin-bottom: 1.6rem;
@@ -246,7 +246,7 @@ nav button {
 
 .posts__container {
     display: grid;
-    grid-template-columns: repeat(3 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 5rem;
     margin-bottom: 5rem;
 }
@@ -345,6 +345,7 @@ footer ul a:hover {
     width: 30rem;
     background: var(--color-gray-900);
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     overflow: hidden;
@@ -584,7 +585,9 @@ input, textarea, select {
     transition: var(--transition);
 }
 
-
+.sidebar__toggle {
+    display: none;
+}
 
 
 /*===============================MEDIA QUERIES (MEDIUM DEVICES)======================================*/
